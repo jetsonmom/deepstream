@@ -26,15 +26,16 @@ lsusb -t
 <b> nvgstcapture 영상 출력 확인
 
 - USB Camera 실행 및 이미지 저장
-  ```
-$ nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
+```
+nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
 ```
 <b>
 ‘j’ + enter : 싱글이미지 저장
 ‘q’ + enter : 프로그램 종료
 
 ```
-$ eog <file_name.jpg>
+eog <file_name.jpg>
+```
 <b>  // 저장 이미지 확인 (Imager Viewer)
 ※ Jetson 카메라 기본 튜토리얼
 Taking Your First Picture with CSI or USB Camera :
