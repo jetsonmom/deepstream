@@ -42,7 +42,8 @@ Taking Your First Picture with CSI or USB Camera :
 https://developer.nvidia.com/embedded/learn/tutorials/first
 -picture-csi-usb-camera#CameraGuide-Usefulresources
 - USB Camera 동영상 저장
-  ```
+- 
+```
 nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 ```
 <b>
